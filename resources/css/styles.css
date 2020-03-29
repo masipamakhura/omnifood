@@ -1,4 +1,4 @@
-*{
+ *{
 	
 	margin:0;
 	padding:0;
@@ -12,6 +12,7 @@ html{
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
+	
 }
 
 .row{
@@ -31,6 +32,7 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 	
 	
 }
@@ -108,6 +110,7 @@ h2::after{
 btn:visited{
 	display: inline-block;
 	text-decoration: none;
+	color: #fff;
 	font-weight: 300;
 	padding:10px 30px;
 	border-radius: 200px;
@@ -256,6 +259,223 @@ btn-ghost:visited{
 	opacity: 1;
 	transform: scale(1.03);
 }
+
+/* how it works */
+
+.steps-box{
+	
+	margin-top: 30px; 
+}
+.steps-box:first-child{
+	
+	text-align: right;
+	padding-right: 3%;
+	
+}
+
+.steps-box:last-child{
+	padding-left: 3%;
+	
+}
+.app-screen{
+	width:40%;
+}
+
+
+.section-steps{
+}
+.works-step{
+	
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	
+	
+}
+
+.works-step div{
+	
+	color:#e67e22;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #e67e22;
+	border-radius: 50%;
+	margin-right: 30px;
+	padding: 3%;
+	
+
+}
+.works-step p{
+	
+	line-height: 150%;
+	font-weight: 700;
+}
+
+.download-icons-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.download-icons-links i img{
+	
+	height: 55px;
+
+}
+
+
+
+.clear-fix{
+	zoom:1;
+}
+.clear-fix:after{
+	content: ".";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.section-cities{
+	background: #f5f2f2;
+	
+
+}
+/* cities */
+
+
+.box img{
+	
+	width:100%;
+	height: auto;
+	margin-bottom: 30px;
+	
+}
+
+.city-features{
+	margin-bottom: 10px;
+	
+	
+}
+
+.icon-small{
+	color: #e67e22;
+	padding-top: -10px;
+	font-size: 140%;
+	line-height: 140%;
+	text-align: center;
+	vertical-align: middle;
+	
+	margin-right: 10px;
+}
+
+a:link,a:visited{
+	
+	color: #e67e22;
+	text-decoration: none;
+	border-bottom: 2px solid #e67e22;
+	padding-bottom: 1px;
+	transition: border-bottom .5s,color .5s;
+		
+}
+a:hover,a:active{
+	color: #555;
+	border-bottom: 2px solid transparent;
+}
+
+.section-testimonials{
+	
+	background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(/resources/css/img/back-customers.jpg);
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+	
+	
+
+	
+		
+}
+
+blockquote{
+	padding:2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	
+}
+blockquote:before{
+	
+	content:"\201C";
+	display: block;
+	position: absolute;
+	top:5px;
+	font-size: 500%;
+	color: aqua;
+	left: -3px;
+	
+}
+cite{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+}
+cite img{
+	height: 45px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.btn-full{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
